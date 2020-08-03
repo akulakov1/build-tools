@@ -12,14 +12,12 @@
         <module>api</module>
         <module>implementation</module>
     </modules>
+
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>implementation</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.4</version>
         </dependency>
     </dependencies>
-
-
 </project>
